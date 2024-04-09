@@ -4,13 +4,66 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="input.css" />
+    <link rel="script" href="index.js" />
     <title>Tailwind CSS</title>
   </head>
   <body>
-    <div class="mx-4 my-4 text-Black font-black text-6xl">Hello World!</div>
-    <div class="mx-4 font-sans text-base">
-      This is a Starting Point files for TailwildCSS Projects.
+
+    <!-- Creating TOP Announcement Carousel Slider -->
+    <div class="carousel w-full">
+
+      <div id="slide1" class="carousel carousel-item relative w-full bg-black hover:bg-[#ff4b00] justify-center">
+        <div class="text-white px-3 py-1.5">
+          <p class="px-3 py-1 text-sm md:text-base">
+            28 Day Return Policy | Terms & Conditions apply
+          </p>
+        </div>
+        <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+          <a href="#slide4" class="btn btn-circle btn-xs">❮</a> 
+          <a href="#slide2" class="btn btn-circle btn-xs">❯</a>
+        </div>
+      </div> 
+
+      <div id="slide2" class="carousel carousel-item relative w-full bg-black hover:bg-[#ff4b00] justify-center">
+        <div class="text-white px-3 py-1.5 text-sm md:text-base">
+          <p class="px-3 py-1.5 text-sm md:text-base">
+            Spoilt for Choice? Find Your Match with our Quiz
+          </p>
+        </div>
+        <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+          <a href="#slide1" class="btn btn-circle btn-xs">❮</a> 
+          <a href="#slide3" class="btn btn-circle btn-xs">❯</a>
+        </div>
+      </div> 
+
+      <div id="slide3" class="carousel carousel-item relative w-full bg-black hover:bg-[#ff4b00] justify-center">
+        <div class="text-white px-3 py-1.5 text-sm md:text-base">
+          <p class="px-3 py-1.5 text-sm md:text-base">
+            Get 10% off your first purchase when you sign up for our emails. *T&C
+            apply.
+          </p>
+        </div>
+        <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+          <a href="#slide2" class="btn btn-circle btn-xs">❮</a> 
+          <a href="#slide4" class="btn btn-circle btn-xs">❯</a>
+        </div>
+      </div> 
+
+      <div id="slide4" class="carousel carousel-item relative w-full bg-black hover:bg-[#ff4b00] justify-center">
+        <div class="text-white px-3 py-1.5 text-sm md:text-base">
+          <p class="px-3 py-1.5 text-sm md:text-base">
+            ★★★★★ 4.7 rating from 11.8k certified reviews
+          </p>
+        </div>
+        <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+          <a href="#slide3" class="btn btn-circle btn-xs">❮</a> 
+          <a href="#slide1" class="btn btn-circle btn-xs">❯</a>
+        </div>
+      </div>
     </div>
-    <div class="mx-4 font-sans text-md font-semibold">Edit the `index.html` file.</div>
+  
+
+    <!-- Creating Navigation Bar -->
+    
   </body>
 </html>
